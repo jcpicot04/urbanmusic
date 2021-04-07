@@ -11,7 +11,7 @@ app.set('port', process.env.PORT || 4000);
 app.use(morgan('dev'));
 app.use(express.json());
 //Rutas
-app.use('/api',require('./routes/task.routes'));
+app.use('/api/songs',require('./routes/songs.routes'));
 
 //Archivos estáticos
 app.use(express.static(path.join(__dirname, 'public')));

@@ -5,16 +5,24 @@ class App extends Component {
     constructor() {
         super();
         this.state = {
-            title: '',
-            description: '',
-            tasks: []
+            nom: '',
+            numCanciones: '',
+            numArtistas: '',
+            canciones: [
+                {nombre : '',
+                 artista: '',
+                idtema: 0,
+                sonido: '',
+                imagen: ''}
+            ],
+            songs: []
         };
         this.handleChange = this.handleChange.bind(this);
-        this.addTask = this.addTask.bind(this);
+        this.addSong = this.addSong.bind(this);
     }
 
-    addTask(e) {
-        fetch('/api', {
+    addSong(e) {
+        fetch('/api/songs', {
             method: 'POST',
             body: JSON.stringify(this.state),
             headers: {
@@ -26,30 +34,40 @@ class App extends Component {
             .then(data => {
                 console.log(data)
                 M.toast({html: 'Guardado'});
-                this.setState({title: '', description: ''});
-                this.fetchTasks();
+                this.setState({
+                    nom: '',
+                    numCanciones: '',
+                    numArtistas: '',
+                    canciones: [
+                        {nombre : '',
+                         artista: '',
+                        idtema: 0,
+                        sonido: '',
+                        imagen: ''}
+                    ]});
+                this.fetchSongs();
             })
             .catch(err => console.error(err));
         e.preventDefault();
     }
 
     componentDidMount() {
-        this.fetchTasks();
+        this.fetchSongs();
     }
 
-    fetchTasks() {
-        fetch('/api')
+    fetchSongs() {
+        fetch('/api/songs')
             .then(res => res.json())
             .then(data => {
-                this.setState({tasks: data});
-                console.log(this.state.tasks);
+                this.setState({songs: data});
+                //console.log(data[0]);
             });
     }
 
-    deleteTask(id) {
+    deleteSong(id) {
        if(confirm('Seguro que quieres eliminarla?')){
          //console.log('Eliminando: '+ id);
-         fetch(`/api/${id}`, {
+         fetch(`/api/songs/${id}`, {
             method: 'DELETE',
             headers: {
                 'Accept': 'application/json',
@@ -60,7 +78,7 @@ class App extends Component {
     .then(data => {
         console.log(data);
         M.toast({html: 'Eliminado'});
-        this.fetchTasks();
+        this.fetchSongs();
     })
        }
     }
@@ -87,16 +105,16 @@ class App extends Component {
                         <div className="col s5">
                         <div className="card">
                             <div className="card-content">
-                                <form onSubmit={this.addTask}>
+                                <form onSubmit={this.addSong}>
                                     <div className="row">
                                         <div className="input-field col-s12">
                                             </div>
-                                                <input name="title" value={this.state.title} onChange={this.handleChange} type="text" placeholder="Título"/>
+                                                <input name="nombre" value={this.state.canciones.nombre} onChange={this.handleChange} type="text" placeholder="Nombre"/>
                                     </div>
                                     <div className="row">
                                         <div className="input-field col-s12">
                                             </div>
-                                            <textarea name="description" value={this.state.description} onChange={this.handleChange} placeholder="Descripcion" className="materialize-textarea"></textarea>
+                                            <textarea name="artista" value={this.state.canciones.artista} onChange={this.handleChange} placeholder="Artista" className="materialize-textarea"></textarea>
                                     </div>
                                     <button type="submit" className="btn light-blue darken-4">
                                         Enviar
@@ -109,19 +127,31 @@ class App extends Component {
                             <table>
                                 <thead>
                                     <tr>
-                                        <th>Título</th>
-                                        <th>Descripción</th>
+                                        <th>Nombre</th>
+                                        <th>Artista</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     {
-                                        this.state.tasks.map(task => {
+                                        console.log(this.state.songs),
+                                        this.state.songs.length>0 ? 
+                                        this.state.songs[0].canciones.map(song => {
                                             return (
-                                            <tr key={task._id}>
-                                                <td>{task.title}</td>
-                                                <td>{task.description}</td>
+                                                            <tr key={song.idtema}> 
+                                                            <td>{song.nombre}</td>
+                                                            <td>{song.artista}</td>
+                                                            </tr>
+
+                                                        
+                                                       
+                                                ) 
+                                        }) : <tr><td>Cargando setState</td></tr>
+                                                
+                                            /*{key={song.canciones.map((_id) => <tr key="{_id}" className="_id">{_id}</tr>).toString()}>
+                                                <td>{song.canciones.map((nombre) => <td key="{nombre}" className="nombre">{nombre}</td>).toString()}</td>
+                                                <td>{song.canciones.map(artista => <td key="{artista}" className="artista">{artista}</td>).toString()}</td>
                                                 <td>
-                                                    <button className="btn light-blue darken-4" onClick={() => this.deleteTask(task._id)}>
+                                                    <button className="btn light-blue darken-4" onClick={() => this.deleteSong(song._id)}>
                                                         <i className="material-icons">delete</i>
                                                     </button>
                                                     <button className="btn light-blue darken-4" style={{margin: '4px'}}>
@@ -129,8 +159,10 @@ class App extends Component {
                                                     </button>
                                                 </td>   
                                             </tr>
-                                        )})
-                                    }
+                                        )})*/
+                                            
+                                        }
+                            
                                 </tbody>
                             </table>
                         </div>
