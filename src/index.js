@@ -1,22 +1,26 @@
-const express = require('express');
-const morgan = require('morgan');
-const path = require('path');
-const { mongoose } = require('./database');
+const express = require("express");
+const morgan = require("morgan");
+const path = require("path");
+const { mongoose } = require("./database");
 const app = express();
 
 //Configuración
-app.set('port', process.env.PORT || 4000); 
+app.set("port", process.env.PORT || 4000);
 
 //Middlewares
-app.use(morgan('dev'));
+app.use(morgan("dev"));
 app.use(express.json());
 //Rutas
-app.use('/api/songs',require('./routes/songs.routes'));
+app.use("/api/songs", require("./routes/songs.routes"));
 
 //Archivos estáticos
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, "public")));
 //Inicio servidor
 
-app.listen(app.get('port'), ()=>{
-    console.log(`Conexión establecida con el servidor a través del puerto ${app.get('port')}`);
+app.listen(app.get("port"), () => {
+  console.log(
+    `Conexión establecida con el servidor a través del puerto ${app.get(
+      "port"
+    )}`
+  );
 });
