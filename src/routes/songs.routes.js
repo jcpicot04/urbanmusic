@@ -21,8 +21,8 @@ router.post("/", async (req, res) => {
   console.log("post /api/songs " + songs);
 
   for (let e of songs) {
-    const { nombre, artista, idtema, sonido, imagen } = e;
-    const song = new Song({ nombre, artista, idtema, sonido, imagen });
+    const { color, name, artist, id, audio, cover, active } = e;
+    const song = new Song({ color, name, artist, id, audio, cover, active });
     console.log(song);
     await song.save();
   }
@@ -31,8 +31,8 @@ router.post("/", async (req, res) => {
 });
 
 router.put("/:id", async (req, res) => {
-  const { nombre, artista, idtema, sonido, imagen } = req.body;
-  const newSong = { nombre, artista, idtema, sonido, imagen };
+  const { color, name, artist, id, audio, cover, active } = req.body;
+  const newSong = { color, name, artist, id, audio, cover, active };
   console.log("put/");
   await Song.findByIdAndUpdate(req.params.id, newSong);
   res.json("Actualizado");

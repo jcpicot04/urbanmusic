@@ -1,0 +1,602 @@
+[
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "DHARMA",
+        "artist": "ACRU",
+        "id": 1,
+        "audio": "https://drive.google.com/uc?export=download&id=1wEbQPAZIuySYwEiTKRqXxb9r2CU-0Jnl",
+        "cover": "https://images.genius.com/f888bd6d645c31ec7ad0e05ac85b679a.640x640x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "Román",
+        "artist": "ACRU",
+        "id": 2,
+        "audio": "https://drive.google.com/uc?export=download&id=1PwARu8rwzcAxIukFv6eXRkIC1MObINsy",
+        "cover": "https://images.genius.com/79a6d3f513f8c0c7853a0eb7742b7ec4.798x798x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "Vol.1",
+        "artist": "ACRU",
+        "id": 3,
+        "audio": "https://drive.google.com/uc?export=download&id=1cjtncNzSOuzbdicyLmbhhyGyAEjoF11a",
+        "cover": "https://images.genius.com/419db497ac463a29b6c2719906827ecb.1000x1000x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "Matando la Liga",
+        "artist": "ToteKing",
+        "id": 4,
+        "audio": "https://drive.google.com/uc?export=download&id=1Hskj3hSais3ZokAhtJ2433gJFQAPuw34",
+        "cover": "https://images.genius.com/dfde5cc88e5e5e1d4f2699a23183d80c.640x639x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "Sota, Caballo y Yo",
+        "artist": "ToteKing",
+        "id": 5,
+        "audio": "https://drive.google.com/uc?export=download&id=1XgrmtyJDKDcDPRnfdNKyaXowGCpqBUxZ",
+        "cover": "https://images.genius.com/dfde5cc88e5e5e1d4f2699a23183d80c.640x639x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "Ya me ven",
+        "artist": "ToteKing",
+        "id": 6,
+        "audio": "https://drive.google.com/uc?export=download&id=1MmZx1qXpvbl4G0M7cTITUhgLrZIN4qhF",
+        "cover": "https://images.genius.com/dfde5cc88e5e5e1d4f2699a23183d80c.640x639x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "Mr. Ego",
+        "artist": "Ghostpell",
+        "id": 7,
+        "audio": "https://drive.google.com/uc?export=download&id=1-WmUKH3dLSXXpGfLmbbl1eP_k-3eTSY1",
+        "cover": "https://images.genius.com/6eeaad90ed400d075f59f3b7f280f59e.1000x1000x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "Two Enemigos",
+        "artist": "Ghostpell",
+        "id": 8,
+        "audio": "https://drive.google.com/uc?export=download&id=1s3dtLPFDjHwCDQpdQsCw7jo5-YD7He5_",
+        "cover": "https://images.genius.com/6eeaad90ed400d075f59f3b7f280f59e.1000x1000x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "Breakfast at Pyrex",
+        "artist": "Ghostpell",
+        "id": 9,
+        "audio": "https://drive.google.com/uc?export=download&id=1EXTCLMMM--c_y41uythZzTF630HA78v3",
+        "cover": "https://images.genius.com/6eeaad90ed400d075f59f3b7f280f59e.1000x1000x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "El sindrome de Anuel",
+        "artist": "Foyone",
+        "id": 10,
+        "audio": "https://drive.google.com/uc?export=download&id=1UNiiup3LPbFi9i_m43kEuMnQ3OXiKAZB",
+        "cover": "https://images.genius.com/062f07e58f896032200960488fba7380.1000x1000x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "Igual Mañana",
+        "artist": "Foyone",
+        "id": 11,
+        "audio": "https://drive.google.com/uc?export=download&id=1Wqc0_HNCz3aYueW1uQU9e5QvIR-J6qMB",
+        "cover": "https://images.genius.com/062f07e58f896032200960488fba7380.1000x1000x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "Bocapeste",
+        "artist": "Foyone",
+        "id": 12,
+        "audio": "https://drive.google.com/uc?export=download&id=1ONyIYCFtCDLNOx4z71C9-SudL6H4oSeW",
+        "cover": "https://images.genius.com/062f07e58f896032200960488fba7380.1000x1000x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "Christopher Lambert",
+        "artist": "Dano",
+        "id": 13,
+        "audio": "https://drive.google.com/uc?export=download&id=1ITw-1JHzf6fXvXgQaqBgEumGaffUIRJK",
+        "cover": "https://images.genius.com/f1291d3a6b70cdfe4c61ed7d24499c71.766x766x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "El Igloo",
+        "artist": "Dano",
+        "id": 14,
+        "audio": "https://drive.google.com/uc?export=download&id=1pQF64SCOiW4I-FURt9s_WoLwd9mfTaXe",
+        "cover": "https://images.genius.com/f1291d3a6b70cdfe4c61ed7d24499c71.766x766x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "La lluvia y el Sol",
+        "artist": "Dano",
+        "id": 15,
+        "audio": "https://drive.google.com/uc?export=download&id=1p48ipXdLWDZZUNRR52v7d8eLuJ2Zw9Do",
+        "cover": "https://images.genius.com/f1291d3a6b70cdfe4c61ed7d24499c71.766x766x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "44",
+        "artist": "Skinny Flex",
+        "id": 16,
+        "audio": "https://drive.google.com/uc?export=download&id=1WthddhuXQB1HCX0B6p71TP_iKBHkxyHl",
+        "cover": "https://images.genius.com/f3a52299742a5a2bdc20bc0ec5fd2cf8.300x300x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "SIN PRESION",
+        "artist": "Skinny Flex",
+        "id": 17,
+        "audio": "https://drive.google.com/uc?export=download&id=1orTls0Zt4Xf8XLIl7MrGTodrubDsPsF_",
+        "cover": "https://images.genius.com/f3a52299742a5a2bdc20bc0ec5fd2cf8.300x300x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "TRAP PHONE",
+        "artist": "Skinny Flex",
+        "id": 18,
+        "audio": "https://drive.google.com/uc?export=download&id=1hwitXuWfp-KPzkrpQn-JJWj1XlXMvFpg",
+        "cover": "https://images.genius.com/f3a52299742a5a2bdc20bc0ec5fd2cf8.300x300x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "Crisis",
+        "artist": "N-Wise",
+        "id": 19,
+        "audio": "https://drive.google.com/uc?export=download&id=12IlAo_Oz8vzgOqGnW8Ki9_bpIZRsxYD-",
+        "cover": "https://images.genius.com/d96015e42d88b977ae074ca3a38c2807.288x288x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "SPIRITUAL",
+        "artist": "N-Wise",
+        "id": 20,
+        "audio": "https://drive.google.com/uc?export=download&id=18k8GKMLKwVh5Cli0Uh9jz9xlr0GZlI86",
+        "cover": "https://images.genius.com/d96015e42d88b977ae074ca3a38c2807.288x288x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "CASINO CHIPS",
+        "artist": "N-Wise",
+        "id": 21,
+        "audio": "https://drive.google.com/uc?export=download&id=1g4ZE5pX7DkZP7_MSLREPfPqWFaNlDj3K",
+        "cover": "https://images.genius.com/d96015e42d88b977ae074ca3a38c2807.288x288x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "Aquí te pillo aquí temazo",
+        "artist": "Mucho Muchacho",
+        "id": 22,
+        "audio": "https://drive.google.com/uc?export=download&id=1o7lfcMDYK-tYwMhMBTg9gWky_OWkLRUO",
+        "cover": "https://images.genius.com/11f794d3570eaab0271f34171c5acb34.300x300x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "Con esos ojitos",
+        "artist": "Mucho Muchacho",
+        "id": 23,
+        "audio": "https://drive.google.com/uc?export=download&id=1ge35XzEj1VPkC4-ymqaoXcVyf35HNBSm",
+        "cover": "https://images.genius.com/11f794d3570eaab0271f34171c5acb34.300x300x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "Nikes nuevas",
+        "artist": "Mucho Muchacho",
+        "id": 24,
+        "audio": "https://drive.google.com/uc?export=download&id=1ShQU92KgRE47L9PFkXEM0uH1cNq2dYU8",
+        "cover": "https://images.genius.com/11f794d3570eaab0271f34171c5acb34.300x300x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "El gordo que la pisa bien",
+        "artist": "Kase.O",
+        "id": 25,
+        "audio": "https://drive.google.com/uc?export=download&id=19vlM0rcJaAFdUX-roXaBeP00xh3ZbkQf",
+        "cover": "https://images.genius.com/fbe6dcb4b6163904afb91a1e7f36dfdb.570x570x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "Yemen",
+        "artist": "Kase.O",
+        "id": 26,
+        "audio": "https://drive.google.com/uc?export=download&id=1e5p-lK7xs0c2BMmr5OjMfBF9o1e15SY6",
+        "cover": "https://images.genius.com/fbe6dcb4b6163904afb91a1e7f36dfdb.570x570x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "Repartiendo arte",
+        "artist": "Kase.O",
+        "id": 27,
+        "audio": "https://drive.google.com/uc?export=download&id=1MbRD8VEIDGPwSr_JDIC-M1-mjQzKetbL",
+        "cover": "https://images.genius.com/fbe6dcb4b6163904afb91a1e7f36dfdb.570x570x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "Screep Shadow",
+        "artist": "C.Terrible",
+        "id": 28,
+        "audio": "https://drive.google.com/uc?export=download&id=1XKkEZJgoqKCGOLTITJglV4HRQji9OZDg",
+        "cover": "https://images.genius.com/ecf4b6cf1ac8f2329e9ad4d4034136fd.369x369x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "SUCIO Y BASTARDO",
+        "artist": "C.Terrible",
+        "id": 29,
+        "audio": "https://drive.google.com/uc?export=download&id=1-1iAJB8rMAAym0h_nxZ8HT8peNjdWmOa",
+        "cover": "https://images.genius.com/ecf4b6cf1ac8f2329e9ad4d4034136fd.369x369x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "MILWAUKEE",
+        "artist": "C.Terrible",
+        "id": 30,
+        "audio": "https://drive.google.com/uc?export=download&id=1OeyRgSa31E9O6nWK1BPnH8hToQ45RjrI",
+        "cover": "https://images.genius.com/ecf4b6cf1ac8f2329e9ad4d4034136fd.369x369x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "What a does",
+        "artist": "RAGGIO",
+        "id": 31,
+        "audio": "https://drive.google.com/uc?export=download&id=1kzXqgkx3MybV9tTyl4KGQ_zrdJlnEdD6",
+        "cover": "https://images.genius.com/e7c8878466007869a88b751117d93b1e.994x994x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "ANILLOS DE LATÓN",
+        "artist": "RAGGIO",
+        "id": 32,
+        "audio": "https://drive.google.com/uc?export=download&id=1ITPeBjy6a3d6Fn9jHvWZlLki0sU0Ejoi",
+        "cover": "https://images.genius.com/e7c8878466007869a88b751117d93b1e.994x994x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "TOCAR EL CIELO",
+        "artist": "RAGGIO",
+        "id": 33,
+        "audio": "https://drive.google.com/uc?export=download&id=1_Yg7MROi_Uv_qShmMTyvKXpGFCTwOYAh",
+        "cover": "https://images.genius.com/e7c8878466007869a88b751117d93b1e.994x994x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "VER OIR Y CALLAR",
+        "artist": "Saske",
+        "id": 34,
+        "audio": "https://drive.google.com/uc?export=download&id=1UvPflDM2mjvfKgB4JY8Jylpa0NuK_8M0",
+        "cover": "https://images.genius.com/732c93435181daec826586ab43c30c81.480x480x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "BUCLE",
+        "artist": "Saske",
+        "id": 35,
+        "audio": "https://drive.google.com/uc?export=download&id=149S1LpWnVmRXEHfiYxGn7TEw_rPN_lZP",
+        "cover": "https://images.genius.com/732c93435181daec826586ab43c30c81.480x480x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "CHUCHO",
+        "artist": "Saske",
+        "id": 36,
+        "audio": "https://drive.google.com/uc?export=download&id=1_PWQBvfFHbsj_565-Yq3HLxZSZzSxcSf",
+        "cover": "https://images.genius.com/732c93435181daec826586ab43c30c81.480x480x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "Veneno",
+        "artist": "Delaossa",
+        "id": 37,
+        "audio": "https://drive.google.com/uc?export=download&id=1R2SCZijmIA5ONlwfSVn88z6B4o4tglDI",
+        "cover": "https://images.genius.com/c35206b8f63ac5a8778139615a595a38.328x328x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "NIGHTMARES",
+        "artist": "Delaossa",
+        "id": 38,
+        "audio": "https://drive.google.com/uc?export=download&id=1p7tEJBn9i-1OiGtnpAkVWKwyz0Rab4SQ",
+        "cover": "https://images.genius.com/c35206b8f63ac5a8778139615a595a38.328x328x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "JUDAS",
+        "artist": "Delaossa",
+        "id": 39,
+        "audio": "https://drive.google.com/uc?export=download&id=1MqP9UsvV2LTrJzKgMuRGcsmyKSn3a1zm",
+        "cover": "https://images.genius.com/c35206b8f63ac5a8778139615a595a38.328x328x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "UNDERRATED",
+        "artist": "J.Dose",
+        "id": 40,
+        "audio": "https://drive.google.com/uc?export=download&id=1upTA95pKeslehK3h1lEFh63Gjzg2GhzR",
+        "cover": "https://images.genius.com/cddc48663ff47a308d5eea7afb93e3cc.1000x1000x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "De niños querían ser Kase",
+        "artist": "J.Dose",
+        "id": 41,
+        "audio": "https://drive.google.com/uc?export=download&id=1iWnhYoMsWy4RBey03KceRuLE8KPQUVrK",
+        "cover": "https://images.genius.com/cddc48663ff47a308d5eea7afb93e3cc.1000x1000x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "QUÉ COSA FUERA",
+        "artist": "J.Dose",
+        "id": 42,
+        "audio": "https://drive.google.com/uc?export=download&id=1q4cufueMo-GwItRDA0cDCe7IlerlrQgI",
+        "cover": "https://images.genius.com/cddc48663ff47a308d5eea7afb93e3cc.1000x1000x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "PURO",
+        "artist": "Easy S",
+        "id": 43,
+        "audio": "https://drive.google.com/uc?export=download&id=1uikVzOhyV1R209LasSQucb8G36nRY2oP",
+        "cover": "https://images.genius.com/65feb10d11e339d054ee99f7a3704b8a.400x400x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "CLEAN",
+        "artist": "Easy S",
+        "id": 44,
+        "audio": "https://drive.google.com/uc?export=download&id=1Bg_KUr4osgi6TdQm51NdIBDeXJgRPBu5",
+        "cover": "https://images.genius.com/65feb10d11e339d054ee99f7a3704b8a.400x400x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "What Comes Around",
+        "artist": "Easy S",
+        "id": 45,
+        "audio": "https://drive.google.com/uc?export=download&id=1OlR944cOzp-Djv9a9Ev_AeID06sKjote",
+        "cover": "https://images.genius.com/65feb10d11e339d054ee99f7a3704b8a.400x400x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "P.L.O Style",
+        "artist": "ERGO PRO",
+        "id": 46,
+        "audio": "https://drive.google.com/uc?export=download&id=19XnAcZdJbpxo3HfXjRNe5wS9JYF2p3TW",
+        "cover": "https://images.genius.com/b9648e7fd8d6dd5152f962845c24dab2.640x640x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "KALIGULA",
+        "artist": "ERGO PRO",
+        "id": 47,
+        "audio": "https://drive.google.com/uc?export=download&id=127L7LW7AChtLe08_5zRr5_9-hzb0GO60",
+        "cover": "https://images.genius.com/b9648e7fd8d6dd5152f962845c24dab2.640x640x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "BLACK MAMBA",
+        "artist": "ERGO PRO",
+        "id": 48,
+        "audio": "https://drive.google.com/uc?export=download&id=19YWWCAqQZELSvSWGrlhKvO2BW2fOq8KR",
+        "cover": "https://images.genius.com/b9648e7fd8d6dd5152f962845c24dab2.640x640x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "TEXTURAS",
+        "artist": "Erick Hervé",
+        "id": 49,
+        "audio": "https://drive.google.com/uc?export=download&id=1njujF8w3pXRt7InFnsbaYKptCy-noTDd",
+        "cover": "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F781a2df3b3255e4a6a130d2e9d67c044.300x300x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "ROTO",
+        "artist": "Erick Hervé",
+        "id": 50,
+        "audio": "https://drive.google.com/uc?export=download&id=11VZikYot-D50OZrxzXdDzN9WFTK-1yJ9",
+        "cover": "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F781a2df3b3255e4a6a130d2e9d67c044.300x300x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "LUTO",
+        "artist": "Erick Hervé",
+        "id": 51,
+        "audio": "https://drive.google.com/uc?export=download&id=1P2j14ZzEEmJPsNZfs_fk7SCOp3K4y-zX",
+        "cover": "https://t2.genius.com/unsafe/300x300/https%3A%2F%2Fimages.genius.com%2F781a2df3b3255e4a6a130d2e9d67c044.300x300x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "HAKI",
+        "artist": "Samie X",
+        "id": 52,
+        "audio": "https://drive.google.com/uc?export=download&id=1OBQOwfIIxg_niwahDB3I4DyoRnRe29Th",
+        "cover": "https://streetrapsounds.com/wp-content/uploads/2020/10/Samie-X-1200x618.png",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "NIRVANA",
+        "artist": "Samie X",
+        "id": 53,
+        "audio": "https://drive.google.com/uc?export=download&id=1JYYIJc7VKgiWbyJh556zJSFXc8du994E",
+        "cover": "https://streetrapsounds.com/wp-content/uploads/2020/10/Samie-X-1200x618.png",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "MALHAVLAO",
+        "artist": "Samie X",
+        "id": 54,
+        "audio": "https://drive.google.com/uc?export=download&id=18lAn0unlPnfY5nmTR1CeeuP5ZCQV8_zS",
+        "cover": "https://streetrapsounds.com/wp-content/uploads/2020/10/Samie-X-1200x618.png",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "Vietnam",
+        "artist": "IVAN CANO",
+        "id": 55,
+        "audio": "https://drive.google.com/uc?export=download&id=1XQzl2rafXf8BVHys0-D0dAJNdTpA54br",
+        "cover": "https://images.genius.com/06550784fd627f51a2de277003dcfb82.718x718x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "VIUDA NEGRA",
+        "artist": "IVAN CANO",
+        "id": 56,
+        "audio": "https://drive.google.com/uc?export=download&id=1Nr5ftNS_LHKEI2ycQ5nZ8rSqYFMYzLMQ",
+        "cover": "https://images.genius.com/06550784fd627f51a2de277003dcfb82.718x718x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "NOCHE DE AUTOS",
+        "artist": "IVAN CANO",
+        "id": 57,
+        "audio": "https://drive.google.com/uc?export=download&id=18eN0SfzYXEwojhropxSnbrwJFX9dGX_B",
+        "cover": "https://images.genius.com/06550784fd627f51a2de277003dcfb82.718x718x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "BAMBINO",
+        "artist": "Recycled J",
+        "id": 58,
+        "audio": "https://drive.google.com/uc?export=download&id=1t3P8dc1_FAB6JzB09KJOROzAhAKkeoTl",
+        "cover": "https://images.genius.com/f2df47a710254e5dcf70c05d8f29424b.640x640x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "SUPERPODERES",
+        "artist": "Recycled J",
+        "id": 59,
+        "audio": "https://drive.google.com/uc?export=download&id=1yHW_UlekxmwOpG1e3XqOo9dTujOQODiJ",
+        "cover": "https://images.genius.com/f2df47a710254e5dcf70c05d8f29424b.640x640x1.jpg",
+        "active": true
+        
+    },
+    {
+        "color": ["#205950", "#2ab3bf"],
+        "name": "AUNQUE DIGAN QUE YO",
+        "artist": "Recycled J",
+        "id": 60,
+        "audio": "https://drive.google.com/uc?export=download&id=1BRo9uiVhWpKkXU2hoBXq6Peo0Ktjx4H_",
+        "cover": "https://images.genius.com/f2df47a710254e5dcf70c05d8f29424b.640x640x1.jpg",
+        "active": true
+        
+    }
+]
